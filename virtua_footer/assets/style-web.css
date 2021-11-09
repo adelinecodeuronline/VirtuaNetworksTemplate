@@ -1,0 +1,248 @@
+@media screen and (min-width: 992px) {
+  /*variable des couleurs*/
+  .title {
+    margin-bottom: 3%;
+  }
+
+  #datacenter {
+    position: relative;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .figure-header {
+    filter: drop-shadow(0 6px 2px rgba(131, 131, 131, 0.158));
+  }
+
+  .flex-triangles {
+    display: flex;
+  }
+
+  #polygon-header {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+    background-color: #EEECEC;
+    width: 93vw;
+    height: 120vh;
+    margin: auto;
+    justify-content: flex-start;
+  }
+
+  #greyPolygon-header {
+    position: absolute;
+    z-index: -1;
+    -webkit-clip-path: polygon(100% 60%, 0 77%, 100% 100%);
+            clip-path: polygon(100% 60%, 0 77%, 100% 100%);
+    background-color: #49494A;
+    width: 90.5vw;
+    height: 111vh;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .intro-datacenter {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    padding-right: 40%;
+  }
+
+  .intro-datacenter p {
+    font-size: 1.2em;
+  }
+
+  .verticale {
+    border-left: 5px solid #9C2C2C;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    top: 12%;
+    left: -2.5%;
+  }
+
+  .equinix {
+    position: absolute;
+    top: 30%;
+    left: -5%;
+    max-width: 600px;
+    height: 250px;
+  }
+
+  .virtua {
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    max-width: 600px;
+    height: 250px;
+  }
+
+  .texte-datacenter {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+
+  .texte-datacenter h3 {
+    font-size: 1.5em;
+  }
+
+  .texte-datacenter p {
+    padding-right: 20%;
+    line-height: 1.5em;
+    font-size: 1.25em;
+  }
+
+  .icons-references {
+    width: 100%;
+    -webkit-animation: defilement-rtl 60s infinite linear;
+            animation: defilement-rtl 60s infinite linear;
+    padding-right: 340%;
+    padding-left: 80%;
+    display: flex;
+    justify-content: left;
+    transition: 450ms;
+  }
+
+  @-webkit-keyframes defilement-rtl {
+    0% {
+      transform: translate(0, 0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate(0, 0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  .references {
+    width: 20%;
+  }
+
+  form {
+    position: relative;
+    z-index: 1;
+  }
+
+  .background-form {
+    margin-top: 5%;
+    height: 80vh;
+  }
+
+  .nom-prenom {
+    display: flex;
+  }
+
+  #nom, #prenom {
+    width: 250px;
+    height: 40px;
+  }
+
+  #email {
+    height: 20px;
+    width: 600px;
+  }
+
+  #message {
+    margin-left: 0;
+    margin-right: 0;
+    width: 44%;
+    height: 75%;
+  }
+
+  .nom, .prenom, .email, .message {
+    margin-bottom: 2%;
+  }
+
+  .div-btn {
+    margin-right: 11%;
+  }
+
+  .btn-envoyer {
+    padding: 15px 0;
+    margin: 12% 42%;
+  }
+
+  .contact {
+    position: relative;
+  }
+
+  #coordonnees {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  .wave {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: -28%;
+    left: -20%;
+    z-index: -2;
+  }
+
+  .fond {
+    height: 60vh;
+  }
+
+  .partenaires {
+    width: 8%;
+  }
+
+  .icons-partenaires {
+    margin-top: 3%;
+    width: 100%;
+    -webkit-animation: defilement-rtl 30s infinite linear;
+            animation: defilement-rtl 30s infinite linear;
+    padding-right: 120%;
+    padding-left: 80%;
+    display: flex;
+    justify-content: left;
+    transition: 450ms;
+  }
+
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate(0, 0, 0);
+    }
+    100% {
+      transform: translate(-65%, 0);
+    }
+  }
+  .footer-link {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30%;
+  }
+
+  .reseaux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .icon-reseaux {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .legaux {
+    flex-direction: row;
+    margin: 5% 0;
+    gap: 30px;
+  }
+}/*# sourceMappingURL=style-web.css.map */
